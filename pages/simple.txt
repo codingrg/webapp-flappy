@@ -1,0 +1,3 @@
+Hello, welcome to the Harry Potter flappy bird game.
+
+Better than the original flappy bird game!It's magic!

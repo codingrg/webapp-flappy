@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Gwen and Rhiannon's flappy bird game.</title>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
+</head>
+
+<body>
+
+
+
+<div class="container">
+    <div class="jumbotron">
+    <h1>Gwen and Rhiannon's Flappy bird game</h1>
+    <p>Hello, welcome to the Harry Potter flappy bird game.Better than the original flappy bird game! It's magic!</p>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="../assets/frogharry.png" class="img-thumbnail img-responsive" />
+            <p id="gameLink">
+                <a href="example.html">
+                    <img src="../assets/smallharryss.png" class="img-responsive" />
+                    <div id="game"> </div>
+                </a>
+            </p>
+        </div>
+
+        <div class="col-md-4">
+
+
+
+                    <p>Highest Scores:</p>
+            <ul>
+                <li class="gold">Dumbledore</li>
+                <li class="score">Hagrid</li>
+                <li class="score">Lord Voldemort</li>
+            </ul>
+
+    </div>
+</div>
+        </div>
+    <div id="greeting">
+        <h3>Save your score</h3>
+        <form id="greeting-form" class="form-inline">
+            <div class="form-group">
+                <label for="fullName">What's your name?</label>
+                <input type="text" id="fullName"
+                       name="fullName" class="form-control" placeholder="The Chosen One">
+                <label for="email">What's your email?</label>
+                <input type="email" id="email" class="form-control"
+                       name="email" placeholder="harrypotter@hogwarts.com">
+                <input type="hidden" id="score" name="score" value="0">
+            </div>
+            <button class="btn btn-default" type="submit">OK</button>
+        </form>
+    </div>
+
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+    </div>
+</body>
+</html>
+
